@@ -31,6 +31,24 @@ $ git commit -m 'Merge in project-a'
 
 Then the same was done for `project-b` and `project-c`.
 
+Here's what the result looks like:
+
+```
+* 0423f9c (HEAD -> main) Link to alternative explanations of subtree merge strategy
+* 3749979 cite
+* b8356ed Indicate that the commands for merging in project-a were run from a clean state
+*   03d2660 Merge in project-c
+|\  
+| * 15769c8 (project-c) Initial commit
+*   9d591aa Merge in project-b
+|\  
+| * 9e71ac6 (project-b) Initial commit
+*   449a29c Merge in project-a
+|\  
+| * e163512 (project-a) Initial commit
+* 4dd7631 Initial commit
+```
+
 This was based on the 'Subtree merging' section of [Git Tools - Advanced
 Merging](https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging) in Pro Git.
 
