@@ -6,6 +6,10 @@ branch of this new monorepo.
 `project-a`'s history was combined with `main` like so:
 
 ```
+$ git status
+On branch main
+nothing to commit, working tree clean
+
 $ git merge -s ours --no-commit --allow-unrelated-histories project-a 
 Automatic merge went well; stopped before committing as requested
 
