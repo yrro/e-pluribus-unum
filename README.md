@@ -30,3 +30,6 @@ $ git commit -m 'Merge in project-a'
 ```
 
 Then the same was done for `project-b` and `project-c`.
+
+This was based on the 'Subtree merging' section of [Git Tools - Advanced
+Merging](https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging) in Pro Git.
