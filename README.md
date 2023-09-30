@@ -3,6 +3,8 @@
 We're going to merge the histories of three other projects into the `main`
 branch of this new monorepo.
 
+`project-a`'s history was combined with `main` like so:
+
 ```
 $ git merge -s ours --no-commit --allow-unrelated-histories project-a 
 Automatic merge went well; stopped before committing as requested
@@ -22,3 +24,5 @@ Changes to be committed:
 $ git commit -m 'Merge in project-a'
 [main 0abcdef] Merge in project-a
 ```
+
+Then the same was done for `project-b` and `project-c`.
