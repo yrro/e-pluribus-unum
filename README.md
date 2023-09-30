@@ -33,3 +33,9 @@ Then the same was done for `project-b` and `project-c`.
 
 This was based on the 'Subtree merging' section of [Git Tools - Advanced
 Merging](https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging) in Pro Git.
+
+The technique is also explained in [GitHub's
+documentation](https://docs.github.com/en/get-started/using-git/about-git-subtree-merges)
+and Alex Boffey's blog post [Combining Git repositories with Subtree
+Merging](https://alexboffey.co.uk/blog/combining-git-repositories-using-subtree-merging/)
+which are a bit more accessible than Pro Git.
